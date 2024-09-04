@@ -1,0 +1,48 @@
+.ScrollBox{
+  height: 470px;
+  width: 600px;
+  background-color: #c4d500;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content:center ;
+  align-items: center;
+}
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.leftRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.leftRight button{
+  padding: 4px 25px;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(9, 143, 210);
+}
+
+.surpriseBtn{
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(5, 5, 56);
+}
